@@ -21,6 +21,7 @@ const removeNote = id => {
 
   if (noteIndex > -1) {
     notes.splice(noteIndex, 1)
+    saveNotes(notes)
   }
 }
 

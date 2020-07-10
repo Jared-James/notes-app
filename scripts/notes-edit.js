@@ -8,7 +8,7 @@ let notes = getSavedNotes()
 let note = notes.find(note => note.id === noteId)
 
 if (!note) {
-  location.assign('/notes.html')
+  location.assign('/index.html')
 }
 
 titleElement.value = note.title
@@ -33,7 +33,7 @@ bodyElement.addEventListener('input', (e) => {
 document.getElementById('remove-note').addEventListener('click', (e) => {
   removeNote(note.id)
   lastEdited.textContent = callEdit(note.updatedAt)
-  location.assign('/notes.html')
+  location.assign('/index.html')
 })
 
 window.addEventListener('storage', (e) => {
@@ -41,7 +41,7 @@ window.addEventListener('storage', (e) => {
    notes = JSON.parse(e.newValue)
    let note = notes.find(note => note.id === noteId)
   if (!note) {
-    location.assign('/notes.html')
+    location.assign('/index.html')
   }
   
   titleElement.value = note.title
