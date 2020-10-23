@@ -36,7 +36,7 @@ document.getElementById('filterBy').addEventListener('change',  (e) => {
 	renderNotes(notes, filters)
 })
 
-// Reflects the change that occurs in edit
+
 window.addEventListener('storage', (e) => {
 	if (e.key === 'notes') {
 		let notes = JSON.parse(e.newValue)
