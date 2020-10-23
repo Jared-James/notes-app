@@ -3,7 +3,6 @@ const titleElement = document.getElementById('note-title')
 const bodyElement = document.getElementById('body-title')
 const lastEdited = document.getElementById('last-edited')
 const buttonConfirm = document.getElementById('confirm')
-const buttonHome = document.getElementById('buttonHome')
 const noteId = location.hash.substring(1)
 let notes = getSavedNotes()
 
@@ -38,11 +37,7 @@ document.getElementById('remove-note').addEventListener('click', (e) => {
   location.assign('/index.html')
 })
 
-document.getElementById('buttonHome').addEventListener('click', (e) => {
-  removeNote(note.id)
-  lastEdited.textContent = callEdit(note.updatedAt)
-  location.assign('/index.html')
-})
+
 
 window.addEventListener('storage', (e) => {
   if (e.key === 'notes') {

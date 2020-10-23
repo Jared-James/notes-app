@@ -44,7 +44,3 @@ window.addEventListener('storage', (e) => {
 	}
 })
 
-// const myBirthday = moment()
-// myBirthday.year(1992).month(1).date(14)
-// console.log(myBirthday.format('MMMM DD, YYYY'))
-
