@@ -9,7 +9,6 @@ This project was created to show a CRUD application using basic javascript.
 Javascript & express
 
 *Installation*
-### Please run
  - NPM install
  - NPM run start - Node
  - NPM run dev - Nodemon
