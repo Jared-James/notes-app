@@ -33,3 +33,13 @@
 
 ## Create Note
 ![CreateNote](readme-images/create-note.gif)
+
+--- 
+
+## del Note
+![CreateNote](readme-images/create-note.gif)
+
+--- 
+
+## filter Note
+![CreateNote](readme-images/create-note.gif)
