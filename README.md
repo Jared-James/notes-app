@@ -34,6 +34,6 @@
 ---
 
 ## Create Note
-![CreateNote](readme-images/create-note.gif)
+![CreateNote](readme-images/note-app-create.gif)
 
 --- 
