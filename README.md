@@ -30,3 +30,10 @@
 ### Runs on: 
 - localhost:3000
 - nodemon
+
+---
+
+## Create Note
+![CreateNote](readme-images/create-note.gif)
+
+--- 
