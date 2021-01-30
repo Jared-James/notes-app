@@ -33,7 +33,12 @@
 
 ---
 
-## Create Note
+## 👉 Here is what the application looks like
+
+## Example 1
 ![CreateNote](readme-images/note-app-create.gif)
 
 --- 
+## Example 2
+![FilterNote](readme-images/note-app-filter.gif)
+---
