@@ -1,4 +1,4 @@
-### Stop forgetting things  👀👀
+# Stop forgetting things  👀🐵
 
 ## A note taking application that features,
 - 👊 Creating
@@ -9,9 +9,9 @@
 
 ---
 
-### 💹 Motivation 
+# 💹 Motivation 
 
-# This project was created to show a CRUD application using basic javascript. 
+### This project was created to show a CRUD application using basic javascript. 
 
 ---
 
