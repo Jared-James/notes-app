@@ -20,10 +20,12 @@
 ## Javascript & express
 
 *Installation*
+ - Clone Repo
  - NPM install
- - NPM run dev - Nodemon
+ - NPM RUN start
 
 
 ---
 
 Runs on: localhost:3000
+- nodemon
